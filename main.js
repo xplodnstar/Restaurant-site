@@ -121,6 +121,24 @@ $("#accordion").on("click", "#menu", function () {
     })
 })
 
-
-
-
+// var items = $.ajax({
+//     method: "get",
+//     url: "https://obscure-tundra-54269.herokuapp.com/bar-food"
+// }).done(function (data) {
+//     var spicy = items.extra.map(function (icon) {
+//         if (icon.spicy = true) {
+//             return '<img src="./assets/spicy.png>'
+//         }
+//     })
+//     var gf = items.extra.map(function (icon) {
+//         if (icon.glutenfree = true) {
+//             return '<img src="./assets/gf.png>'
+//         }
+//     })
+//     var veg = items.extra.map(function (icon) {
+//         if (icon.vegetarian = true) {
+//             return '<img src="./assets/veg.png>'
+//         }
+//     }).join('')
+//     console.log(data)
+// })
